@@ -1,0 +1,208 @@
+.p-header {
+	background-image: url("../imagenes/background-social.png");
+	background-color: #f41f25;
+}
+
+.p-nav {
+	background-color: #f41f25;
+	width: 90%;
+	position: fixed;
+	z-index: 100;
+}
+
+.p-nav .p-aul {
+	color: #ffffff;
+	margin: 1%;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.p-section1 {
+	padding-top: 15%;
+	color: #ffffff;
+}
+
+.p-section1 .p-planButton {
+	border-radius: 15px;
+	background-color: white;
+	border-color: #f41f25;
+	font-weight: bold;
+	color: #f41f25;
+	width: 22%;
+	
+}
+
+.p-imge1 {
+	background-image: url("../imagenes/beneficios/proyectate-emprender.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.p-iconContainer {
+	background-image: url("../imagenes/bg-circle.png");
+	padding-left: 20%;
+	padding-right: 20%;
+	background-size: 103%;
+	background-repeat: no-repeat;
+	background-position-y: 47px;
+	
+}
+
+.p-iconContainer .p-iconh3 {
+	font-weight: bold;
+	
+}
+
+.p-iconContainer .p-iconP {
+	font-size: 8px;
+	color: gray;
+	
+}
+
+.p-table {
+	margin-top: 10%;
+	margin-bottom: 20%
+}
+
+.btn-nueva {
+	margin: 2px 0 14px 0;
+}
+
+.p-form {
+	padding: 1%
+}
+
+.p-form .p-formP {
+	background-color: rgba(224, 31, 37, 0.1);
+}
+
+.p-form .p-checkbox1 {
+	width: 20% !important;
+	margin-right: 3%;
+}
+
+
+.p-white .p-floating-icon, 
+.p-white .p-floating-link {
+	background: #fff;
+}
+
+.p-floating-icon{
+	z-index: 9999999 ;
+  width: 50px;
+  height: 50px;  
+  border-radius: 50%;
+  background-color: #c51717 !important;
+  color:white;
+  padding-left: 7px;
+  padding-top: 2px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.p-floating-parche{
+  z-index: 9999999;
+  right: -100px;
+  position: fixed;
+  width: 150px;
+  transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+	-o-transition: all ease .6s;
+	bottom: 50%
+}
+.p-floating-parche:hover{
+  right: 45px;
+}
+
+.p-floating-message{
+	z-index: 9999999;
+  font-size:17px;  
+}
+.p-floating-contact-wrap{
+  display:-webkit-box !important;
+}
+.p-nav-item {
+	color: #f41f25;
+}
+
+.p-floating-icon-left{
+	z-index: 9999999 ;
+  width: 50px;
+  height: 50px;  
+  border-radius: 50%;
+  background-color:white !important;
+  color:white;
+  padding-left: 7px;
+  padding-top: 2px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.p-floating-parche-left{
+  z-index: 9999999;
+  left: -150px;
+  position: fixed;
+  width: 150px;
+  transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+	-o-transition: all ease .6s;
+	bottom: 70%
+}
+
+.p-floating-parche-left:hover{
+  left: 10px;
+}
+
+.p-floating-parche-left2{
+  z-index: 9999999;
+  left: -150px;
+  position: fixed;
+  width: 150px;
+  transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+	-o-transition: all ease .6s;
+	bottom: 60%
+}
+
+.p-floating-parche-left2:hover{
+  left: 10px;
+}
+
+.p-floating-parche-left3{
+  z-index: 9999999;
+  left: -150px;
+  position: fixed;
+  width: 150px;
+  transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+	-o-transition: all ease .6s;
+	bottom: 50%
+}
+
+.p-floating-parche-left3:hover{
+  left: 10px;
+}
+
+.p-floating-parche-left2:hover{
+  left: 10px;
+}
+
+.p-floating-parche-left4{
+  z-index: 9999999;
+  left: -150px;
+  position: fixed;
+  width: 150px;
+  transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+	-o-transition: all ease .6s;
+	bottom: 40%
+}
+
+.p-floating-parche-left4:hover{
+  left: 10px;
+}
