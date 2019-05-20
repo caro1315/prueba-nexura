@@ -1,10 +1,10 @@
 const data = [
 	{
-		name: "fabiola",
+		name: "Fabiola",
 		email: "prueba@gmail.com",
 		sexo: "Femenino",
 		area: "Ventas",
-		description: "pruebas de este localizacion",
+		description: "Pruebas de esta localización",
 		boletin: true
 	},
 	{
@@ -12,15 +12,15 @@ const data = [
 		email: "prueba@gmail.com",
 		sexo: "Masculino",
 		area: "Calidad",
-		description: "pruebas de este localizacion",
+		description: "Pruebas de esta localización",
 		boletin: false
 	},
 	{
-		name: "fabiola",
+		name: "Fabiola",
 		email: "prueba@gmail.com",
 		sexo: "Femenino",
 		area: "Ventas",
-		description: "pruebas de este localizacion",
+		description: "Pruebas de esta localización",
 		boletin: true
 	},
 	{
@@ -28,15 +28,15 @@ const data = [
 		email: "prueba@gmail.com",
 		sexo: "Masculino",
 		area: "Calidad",
-		description: "pruebas de este localizacion",
+		description: "Pruebas de esta localización",
 		boletin: false
 	},
 	{
-		name: "fabiola",
+		name: "Fabiola",
 		email: "prueba@gmail.com",
 		sexo: "Femenino",
 		area: "Ventas",
-		description: "pruebas de este localizacion",
+		description: "Pruebas de esta localización",
 		boletin: true
 	},
 	{
@@ -44,7 +44,7 @@ const data = [
 		email: "prueba@gmail.com",
 		sexo: "Masculino",
 		area: "Calidad",
-		description: "pruebas de este localizacion",
+		description: "Pruebas de esta localización",
 		boletin: false
 	}
 ];
@@ -89,13 +89,12 @@ function editRow(r) {
 	create = false;
 	let i = r.parentNode.parentNode.rowIndex;
 	identificador = i -1;
-	console.log(data[identificador].sexo)
 	$("#name1").val(data[identificador].name);
 	$("#email1").val(data[identificador].email);
 	$("input[name='radios'][value='"+data[identificador].sexo+"']").prop('checked', true);
 	$('#area1').val(data[identificador].area);
 	$("#description1").val(data[identificador].description);
-	$("input[name='checkbox1'][value='"+data[identificador].boletin+"']").prop('checked', true);
+	$("#checkbox1").prop("checked", data[identificador].boletin);
 	$("#miModal").modal();
 };
 
@@ -103,7 +102,6 @@ function editRow(r) {
 $("#close").click(function () {
 	$("#contact_form").find('.form-control').val('');
 	$("#checkbox1").val(false);
-
 })
 
 
@@ -151,9 +149,10 @@ $("#contact_form").submit(function (e) {
 		getData(data);
 		$(form).find('.form-control').val('');
 		$('#miModal').modal('toggle');
-		$(form_result_div).html("La solicitud tuvo exito").fadeIn('slow');
+		// $(form_result_div).html("La solicitud tuvo éxito").fadeIn('slow');
 		form_btn.prop('disabled', false).html(form_btn_old_msg);
-		setTimeout(function () { $(form_result_div).fadeOut('slow') }, 3000);
+		// setTimeout(function () { $(form_result_div).fadeOut('slow') }, 3000);
+		$("#checkbox1").val(false);
 		create = true;
 
 	},

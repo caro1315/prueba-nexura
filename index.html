@@ -28,17 +28,17 @@
 <body>
 
 	<header id="header" class="p-header text-center">
-				<div class="container">
-					<nav class="p-nav">
-						<ul class="nav justify-content-end">
-							<li class="nav-item">
-								<a class="nav-link p-aul" href="#">¿CÚAL ES TU PARCHE?</a></li>
-							<li class="nav-item">
-								<a class="nav-link p-aul" href="#">¿CÚAL ES EL PLAN PROYECTANTE?</a></li>
-							<li class="nav-item">
-								<a class="nav-link p-aul" href="#">PREGUNTAS FRECUENTES</a></li>
-						</ul>
-					</nav>
+		<div class="container">
+			<nav class="p-nav">
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link p-aul" href="#">¿CUÁL ES TU PARCHE?</a></li>
+					<li class="nav-item">
+						<a class="nav-link p-aul" href="#">¿CUÁL ES EL PLAN PROYECTANTE?</a></li>
+					<li class="nav-item">
+						<a class="nav-link p-aul" href="#">PREGUNTAS FRECUENTES</a></li>
+				</ul>
+			</nav>
 		</div>
 
 		<div class="header-middle 	 text-center">
@@ -46,7 +46,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 p-section1 ">
 					<h1>PLAN PROYÉCTATE</h1>
 					<P>Para el parche que cumple sus metas ahorrando</P>
-					<button type="button" class="btn btn-outline-danger p-planButton">¿CÚAL ES TU PACHE?</button>
+					<button type="button" class="btn btn-outline-danger p-planButton">¿CUÁL ES TU PARCHE?</button>
 				</div>
 			</div>
 		</div>
@@ -54,24 +54,24 @@
 
 		<div>
 			<div class="p-iconContainer text-center">
-					<div class="row">
-							<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="row">
+					<div class="col-xs-4 col-sm-4 col-md-4">
 						<button class="btn p-iconBtn"><img src="imagenes/ico-viajar.png"></img></button>
-						<h3 class="p-iconh3"> VIAJAR</h3>
-						 <P class="p-iconP">EXPANDE TUS HORIZONTES</P>
-						</div>
-						<div class="col-xs-4 col-sm-4 col-md-4">
+						<h3 class="p-iconh3">VIAJAR</h3>
+						<P class="p-iconP">EXPANDE TUS HORIZONTES</P>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
 						<button class="btn p-iconBtn"><img src="imagenes/ico-estudiar.png"></img></button>
 						<h3 class="p-iconh3"> ESTUDIAR</h3>
-						 <P class="p-iconP">DEDICATE A LO QUE TE APASIONA</P>
+						<P class="p-iconP">DEDÍCATE A LO QUE TE APASIONA</P>
 					</div>
-						<div class="col-xs-4 col-sm-4 col-md-4">
+					<div class="col-xs-4 col-sm-4 col-md-4">
 						<button class="btn p-iconBtn"><img src="imagenes/ico-emprender.png"></img></button>
 						<h3 class="p-iconh3"> EMPRENDER</h3>
-						 <P class="p-iconP">PROFESIONALES QUE CAMBIAN EL MUNDO</P>
+						<P class="p-iconP">PROFESIONALES QUE CAMBIAN EL MUNDO</P>
 					</div>
 				</div>
-				
+
 
 			</div>
 		</div>
@@ -85,7 +85,8 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12">
 							<h3> Lista de empleados</h3>
-							<button type="button" class="btn btn-primary btn-nueva" data-toggle="modal" data-target="#miModal">
+							<button type="button" class="btn btn-primary btn-nueva" data-toggle="modal"
+								data-target="#miModal">
 								<b>+</b> Añadir Empleado
 							</button>
 							<table id="myTable" class="table table-bordered grocery-crud-table table-hover text-center">
@@ -94,8 +95,8 @@
 										<th>Nombre</th>
 										<th>Email</th>
 										<th>Sexo</th>
-										<th>Area</th>
-										<th>Boletin</th>
+										<th>Área</th>
+										<th>Boletín</th>
 										<th>Acciones</th>
 									</tr>
 								</thead>
@@ -110,12 +111,14 @@
 									<!-- Contenido del modal -->
 									<div class="modal-content">
 										<div class="modal-header">
-											<button id="close" type="button" class="close" data-dismiss="modal">&times;</button>
+											<button id="close" type="button" class="close"
+												data-dismiss="modal">&times;</button>
 										</div>
 										<div class="modal-body">
 
 											<!-- Para cuando este el modal agregar este form -->
-											<form id="contact_form" name="contact_form" class="bg-deep p-30 pt-10 p-form" method="post">
+											<form id="contact_form" name="contact_form"
+												class="bg-deep p-30 pt-10 p-form" method="post">
 												<h3>Empleado</h3>
 												<p class="p-formP">Los campos con asteriscos (*) son obligatorios</p>
 
@@ -123,14 +126,16 @@
 													<div class="col-sm-12">
 														<div class="form-group mb-10">
 															<label for="name1">Nombre completo *</label>
-															<input type="text" class="form-control required" id="name1" name="name1"
-																placeholder="Nombre completo del empleado" aria-required="true" />
+															<input type="text" class="form-control required" id="name1"
+																name="name1" placeholder="Nombre completo del empleado"
+																aria-required="true" />
 														</div>
 													</div>
 													<div class="col-sm-12">
 														<div class="form-group mb-10">
 															<label for="email1">Correo electrónico *</label>
-															<input name="email1" type="email" class="form-control required" id="email1"
+															<input name="email1" type="email"
+																class="form-control required" id="email1"
 																placeholder="Correo electrónico" aria-required="true" />
 														</div>
 													</div>
@@ -138,14 +143,15 @@
 														<div class="form-group mb-10">
 															<label id="sexo1" for="Select2">Sexo *</label>
 															<div class="form-check">
-																<input class="form-check-input" type="radio" name="radios" id="radio1" value="Masculino"
-																	checked>
+																<input class="form-check-input" type="radio"
+																	name="radios" id="radio1" value="Masculino" checked>
 																<label class="form-check-label" for="radio1">
 																	Masculino
 																</label>
 															</div>
 															<div class="form-check">
-																<input class="form-check-input" type="radio" name="radios" id="radio2" value="Femenino">
+																<input class="form-check-input" type="radio"
+																	name="radios" id="radio2" value="Femenino">
 																<label class="form-check-label" for="radio2">
 																	Femenino
 																</label>
@@ -154,27 +160,30 @@
 													</div>
 													<div class="col-sm-12">
 														<div class="form-group mb-10">
-															<label for="area1">Area *</label>
+															<label for="area1">Área *</label>
 															<select name="area1" class="form-control" id="area1">
 																<option id="ventas" value="Ventas">Ventas</option>
 																<option id="calidad" value="Calidad">Calidad</option>
-																<option id="produccion" value="Produccion">Producción</option>
+																<option id="produccion" value="Producción">Producción
+																</option>
 															</select>
 														</div>
 													</div>
 													<div class="col-sm-12">
 														<div class="form-group mb-10">
 															<label for="description1">Descripción *</label>
-															<textarea name="description1" class="form-control required" id="description1" rows="3"
+															<textarea name="description1" class="form-control required"
+																id="description1" rows="3"
 																aria-required="true"></textarea>
 														</div>
 													</div>
 													<div class="col-sm-12">
 														<div class="form-group mb-10">
 															<div class="form-check form-check-inline">
-																<input name="checkbox1" class="form-control p-checkbox1" type="checkbox" id="checkbox1"
-																	value="true">
-																<label class="form-check-label required" for="checkbox1">Requiere boletin</label>
+																<input name="checkbox1" class="form-control p-checkbox1"
+																	type="checkbox" id="checkbox1" value="true">
+																<label class="form-check-label required"
+																	for="checkbox1">Requiere boletín</label>
 															</div>
 														</div>
 													</div>
@@ -182,7 +191,8 @@
 
 												<div class="modal-footer">
 													<div class="form-group mb-0 mt-20">
-														<input name="form_botcheck" class="form-control" value="" type="hidden"></input>
+														<input name="form_botcheck" class="form-control" value=""
+															type="hidden"></input>
 														<button type="submit"
 															class="btn btn-primary btn-theme-colored btn-sm mt-20 pt-10 pb-10 text-uppercase"
 															data-loading-text="Por favor espera...">Guardar</button>
@@ -205,66 +215,66 @@
 
 
 	<div class="p-floating-parche">
-			<div class="p-floating-contact-wrap p-white">
-				<div>
-						<img class="p-floating-icon" src="./imagenes/iconos-flotantes/ico-user.png"></img>
-				</div>
-				<div class="p-floating-link p-floating-message">
-					<a class="p-nav-item" href="#">Quiero ser parte de este parche
-					</a>
-				</div>
+		<div class="p-floating-contact-wrap p-white">
+			<div>
+				<img class="p-floating-icon" src="./imagenes/iconos-flotantes/ico-user.png"></img>
+			</div>
+			<div class="p-floating-link p-floating-message">
+				<a class="p-nav-item" href="#">Quiero ser parte de este parche
+				</a>
 			</div>
 		</div>
+	</div>
 
-		<div class="p-floating-parche-left">
-				<div class="p-floating-contact-wrap p-white">
-					<div class="p-floating-link p-floating-message">
-						<a class="p-nav-item" href="#">Si tu parche es viajar
-						</a>
-					</div>
-					<div>
-							<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-viajar.png"></img>
-					</div>
-				</div>
+	<div class="p-floating-parche-left">
+		<div class="p-floating-contact-wrap p-white">
+			<div class="p-floating-link p-floating-message">
+				<a class="p-nav-item" href="#">Si tu parche es viajar
+				</a>
 			</div>
+			<div>
+				<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-viajar.png"></img>
+			</div>
+		</div>
+	</div>
 
-			<div class="p-floating-parche-left2">
-					<div class="p-floating-contact-wrap p-white">
-						<div class="p-floating-link p-floating-message">
-							<a class="p-nav-item" href="#">Estudia a lo grande es la meta
-							</a>
-						</div>
-						<div>
-								<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-estudiar.png"></img>
-						</div>
-					</div>
-				</div>
+	<div class="p-floating-parche-left2">
+		<div class="p-floating-contact-wrap p-white">
+			<div class="p-floating-link p-floating-message">
+				<a class="p-nav-item" href="#">Estudia a lo grande es la meta
+				</a>
+			</div>
+			<div>
+				<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-estudiar.png"></img>
+			</div>
+		</div>
+	</div>
 
-				<div class="p-floating-parche-left3">
-						<div class="p-floating-contact-wrap p-white">
-							<div class="p-floating-link p-floating-message">
-								<a class="p-nav-item" href="#">Emprende para triunfar
-								</a>
-							</div>
-							<div>
-									<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-emprender.png"></img>
-							</div>
-						</div>
-					</div>
+	<div class="p-floating-parche-left3">
+		<div class="p-floating-contact-wrap p-white">
+			<div class="p-floating-link p-floating-message">
+				<a class="p-nav-item" href="#">Emprende para triunfar
+				</a>
+			</div>
+			<div>
+				<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-emprender.png"></img>
+			</div>
+		</div>
+	</div>
 
-					<div class="p-floating-parche-left4">
-							<div class="p-floating-contact-wrap p-white">
-								<div class="p-floating-link p-floating-message">
-									<a class="p-nav-item" href="#">Contacta con tus amigos y disfruta
-									</a>
-								</div>
-								<div>
-										<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-contacto.png"></img>
-								</div>
-							</div>
-						</div>
+	<div class="p-floating-parche-left4">
+		<div class="p-floating-contact-wrap p-white">
+			<div class="p-floating-link p-floating-message">
+				<a class="p-nav-item" href="#">Contacta con tus amigos y disfruta
+				</a>
+			</div>
+			<div>
+				<img class="p-floating-icon-left" src="./imagenes/iconos-flotantes/ico-contacto.png"></img>
+			</div>
+		</div>
+	</div>
 
-		
+
 	<script type="text/javascript" src="./js/index.js"></script>
 
 </body>
